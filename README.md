@@ -5,6 +5,9 @@ Machine learning model that accurately classifies cybersecurity alerts as either
 ### **Objective**
 The goal of this project is to build a machine learning model that accurately classifies cybersecurity alerts as either real threats or false positives. Using the Microsoft GUIDE dataset, the project optimizes for high threat detection rates (Recall) by addressing data imbalance and leveraging advanced feature engineering.
 
+![Project Flow](./project-flow.png)
+
+
 ### **Project Step**s
 * **Data Acquisition:** Downloaded the GUIDE dataset directly via the `kagglehub` API.
 * **Data Cleaning:** Processed missing values and mapped anonymized IDs to Windows/Linux OS.
